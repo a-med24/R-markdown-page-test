@@ -1,8 +1,12 @@
 ---
 title: "githubpage"
 author: "Alex Medina"
-date: "2026-09-23"
-output: html_document
+date: "`r Sys.Date()`"
+
+output: 
+  prettydoc::html_pretty:
+    theme: hpstr
+    toc: yes
 ---
 
 ```{r setup, include=FALSE}
