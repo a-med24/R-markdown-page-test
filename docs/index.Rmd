@@ -2,7 +2,6 @@
 title: "githubpage"
 author: "Alex Medina"
 date: "`r Sys.Date()`"
-
 output: 
   prettydoc::html_pretty:
     theme: hpstr
